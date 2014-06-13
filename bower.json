@@ -1,0 +1,22 @@
+{
+  "name": "der-generator",
+  "version": "0.0.0",
+  "homepage": "",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "*",
+    "underscore-amd": "latest",
+    "backbone-amd": "latest",
+    "marionette": "latest",
+    "backbone.wreqr": "*",
+    "backbone.babysitter": "*",
+    "requirejs-text": "~2.0.10",
+    "require-cs": "~0.4.4",
+    "require-less": "~0.1.1",
+    "requirejs-tpl": "*",
+    "backbone.localStorage": "~1.1.7"
+  },
+  "devDependencies": {
+    "requirejs": "latest"
+  }
+}
