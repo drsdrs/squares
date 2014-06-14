@@ -9,33 +9,23 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 		<link rel="shortcut icon" href="/favicon.ico" />
-		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="style/main.css">
 
 		<script type="text/javascript" src="libs/pico.dev.js"></script>
 		<script type="text/javascript" src="libs/crafty.js"></script>
+		<script type="text/javascript" src="libs/jquery.min.js"></script>
 		<script type="text/javascript" src="libs/coffee-script.js"></script>
 		<script type="text/coffeescript" src="sndGen.coffee"></script>
+		<script type="text/coffeescript" src="game.coffee"></script>
+		<script type="text/coffeescript" src="entitys/basicEnemys.coffee"></script>
+		<script type="text/coffeescript" src="entitys/playerAndStuff.coffee"></script>
+		<script type="text/coffeescript" src="entitys/stats.coffee"></script>
+		<script type="text/coffeescript">Crafty.Game.start()</script>
 	</head>
 
 	<body oncontextmenu="return false">
 
-		<div id="inGameStats">
-			<h1>INGAME STATS</h1>
-			<input id="upgradeAction" value="+0" type="button" />
-			<label>live: <div class="barWrap"><div class="bar" id="inGameLive"></div></div></label>
-			<label>score: <input id="inGameScore" type="text" value="0" readonly></label>
-			<label>nextLevel: <div class="barWrap"><div class="bar" id="inGameNextLevel"></div></div></label>
-			<label>level: <input id="inGameLevel" type="text" value="0" readonly></label>
-			<input id="exitLevel" value="EXIT" type="button" />
-		</div>
-		<div id="upgradePlayer">
-			<div id="upgradeShadow"></div>
-			<input id="upgradeVal0Txt"value="0" type="button" />
-			<input id="upgradeVal1Txt"value="0" type="button" />
-			<input id="upgradeVal2Txt"value="0" type="button" />
-			<input id="upgradeVal3Txt"value="0" type="button" />
-			<input id="upgradeVal5Txt"value="0" type="button" />
-		</div>
-
 	</body>
 </html>
+
